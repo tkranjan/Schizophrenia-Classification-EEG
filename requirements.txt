@@ -1,0 +1,7 @@
+streamlit>=1.10
+matplotlib
+numpy
+pandas
+scikit-learn
+tensorflow    # only if you actually use TF; otherwise remove
+mne           # only if you use MNE for EEG; otherwise remove
