@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual env
+eeg_env/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Data / processed files (don't commit large datasets)
+dataverse_files/
+processed/
+*.csv
+*.npz
+
+# Model weight checkpoints
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# pip cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# byte-compiled / distribution
+build/
+dist/
+*.egg-info/
